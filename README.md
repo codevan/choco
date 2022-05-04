@@ -19,5 +19,12 @@ Auto update all:
 
 ```choco upgrade all --yes```
 
+List all installed packages (windows list):
+
+'''choco list -li'''
 
 
+'''choco list --local-only'''
+Or:
+
+'''clist -l'''
