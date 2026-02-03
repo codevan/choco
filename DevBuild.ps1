@@ -50,7 +50,7 @@ Write-Host "Installing applications:" -ForegroundColor "green"
 $packages = "agentransack", "logparser", "GoogleChrome", "7zip", "SourceTree", "fiddler4", "git", "greenshot", "launchy", "MsSqlServer2014Express",
 	"VisualStudioCode", "vscode-powershell", "notepadplusplus", "putty", 
 	"python2", "r.project", "microsoft-r-open", "r.studio", "sumatrapdf", "veracrypt", "windirstat", "winmerge", "winscp", "xmind", "AzureStorageExplorer", 
-	"docker", "nodejs.install", "windirstat", "lockhunter", "Cmder", "rsat", "teracopy", "kdiff3", "gitextensions"
+	"docker", "nodejs.install", "windirstat", "lockhunter", "Cmder", "rsat", "teracopy", "kdiff3", "gitextensions", "pandoc", "rsvg-convert", "miktex"
 
 foreach ($p in $packages)
 {
